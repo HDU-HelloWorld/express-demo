@@ -8,3 +8,5 @@
 npm install 
 
 npm start
+
+使用nodemon提升开发效率
