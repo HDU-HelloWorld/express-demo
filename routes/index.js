@@ -6,12 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/api/message', (req, res) => {
+router.post('/message', (req, res) => {
   console.log(req.body);
   res.send('Successfully posted message');
 });
 
-router.get('/api/message', (req, res) => {
+router.get('/message', (req, res) => {
   console.log(req.body);
   res.send('This is get page');
 });
